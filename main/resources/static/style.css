@@ -1,0 +1,161 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    color: #404040;
+    min-height: 100%;
+    background: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+article,aside,details,figcaption,figure,
+footer,header,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #000000;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*------------------------------------------------------------*/
+header {
+    background: url("image/imghand.jpeg") center center no-repeat; color:#fff; text-align:center;
+    background-size: cover; padding: 30px 10px 10px 10px;
+}
+header>h1{ font-size:3.75em; font-family: 'Raleway', sans-serif; padding-left: 400px;
+ }
+header>h3{
+    font-size:1.0em; font-style: italic; padding-left: 400px;
+}
+
+body{
+
+} .subscribe{
+      background: rgba(9, 114, 99, 0.2); display:table; padding:20px; margin:0 auto 10px auto; border-radius: 5px ;
+  }.subscribe input{
+       float: left; border: 0; width: 320px; margin-right: 10px; font-family: 'Open Sans', sans-serif;
+       font-size: 1em; padding: 12px 20px 13px 20px; box-sizing: border-box;
+   }.subscribe input[type="submit"]{
+        background: rgba(35, 195, 197, 0.7); border: 0; collor:#fff; font-size: 1.25em; font-family: 'Open Sans', sans-serif;
+        font-weight: 800; padding:10px 35px ; cursor:pointer ;
+    }
+
+article{
+    wmax-idth: 800px; margin: 0 auto; padding:10px 10px ;
+}
+article>h3{
+    font-size:1.5em; text-align: center; margin-bottom: 15px;
+}
+article>h2{
+    font-size:1.0em; text-align:center;
+}
+
+article>p{
+    margin-bottom: 10px; text-align: justify;
+    font-size:0.75em; font-family: 'Open Sans', sans-serif; color:#000000;
+}.ingleft{
+     float:left; margin: 0 30px 20px 0;
+ }
+article>li{
+    font-size:0.75em; font-family: 'Open Sans', sans-serif;
+}
+
+/*---------------------------------------- */
+main {
+    margin:0 auto;
+    display: table;
+    width:100%;
+}
+nav, article, aside {
+    box-sizing: border-box;
+    display:table-cell;
+}
+nav, aside {
+    background: rgba(225, 223, 220, 0.35);
+    width:13%;
+}
+
+@media only screen and (max-width:800px) {
+    article { display:table-caption; }
+    header { display:table-header-group; }
+}
+
